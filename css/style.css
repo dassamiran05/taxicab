@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700;900&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Lato', sans-serif; */
+
+/* Initial CSS */
+
+/* .navbar-toggler-icon
+{
+    display:inline-block;
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,a,ol,ul,input,button,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.bg-orange{
+    background-color:#ffc61a ;
+}
+
+.text-orange{
+    color:#ffc61a ;
+}
+
+.text-dark{
+    color: #000;
+}
+
+.btn{
+    padding: 0.4rem 1em;
+    font-size: 1.3rem;
+}
+
+.btn-dark{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    border-color: #000;
+    letter-spacing: 1px;
+}
+
+.btn-dark:hover{
+    background-color: #000;
+    color: #ffc61a;
+}
+/*End of Initial CSS */
+
+
+header{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+    height: 739px;
+}
+
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+.navbar-nav > .active > a{
+    color: #000;
+    background-color: #ffc61a;
+    border-radius: 15px;
+    padding: 5px 18px;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    border-radius: 15px;
+    padding: 5px 18px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #000;
+    background-color: #ffc61a;
+}
+
+header .header-info h3,p{
+    font-weight: bold;
+    /* font-size: 35px; */
+    text-transform: uppercase;
+}
+
+header .header-info h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.header-info p{
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+
+/**Cab Section**/
+
+
+.cab{
+    height: 705px;
+}
+
+.cab-left{
+    padding: 60px;
+}
+
+.cab .cab-left h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cab .cab-left h1{
+    font-size: 46px;
+    font-weight: bold;
+}
+.cab .cab-left p{
+    color: #101010;
+}
+
+.cab .cab-right h1{
+    background-color: #000;
+    font-weight: bold;
+}
+
+.cab .cab-right{
+    background-color: white;
+    width: 380px;
+}
+
+.cab .cab-right h1{
+    padding: 30px ;
+}
+
+.cab .cab-right form input[type="text"]{
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 3px solid #e4e4e4;
+    border-radius: 0;
+} 
+
+
+.cab .cab-right form select{
+    background-color: #fff;
+    border: 0;
+    border-bottom: 3px solid #e4e4e4;
+    border-radius: 0;
+}
+
+.cab .cab-right form .form-control:focus{
+    border-color:#ffc61a;
+    box-shadow: none;
+}
+
+.cab .cab-right select .form-control:focus{
+    border-color:#ffc61a;
+    box-shadow: none;
+}
+
+
+/*** Our Tariffs ***/
+
+.tariffs{
+    height: auto;
+}
+
+.tariffs .card{
+    background-color: #f5f4f2;
+    padding: 25px;
+    /* position: relative; */
+}
+
+.tariffs .card p{
+    font-size: 13px;
+    color: black;
+}
+
+.card img{
+    /* margin-left: 100px;
+    position: absolute; */
+    margin-top: -70px;
+}
+
+.tariffs .first-row{
+    margin-bottom: 100px;
+}
+
+.card:hover{
+    background-color: #ffc61a;
+    transition: .4s;
+}
+
+.card:hover button{
+    background-color: #000;
+    color: #fff;
+    transition: .4s;
+}
+
+
+.card:hover h3{
+    color: #000;
+    transition: .4s;
+}
+
+
+.content{
+    background-image: url(../images/banner2.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section{
+    display: flex;
+    margin-bottom: 70px;
+    /* width: 480px; */
+}
+
+.content-section .content-info{
+    margin-left: 30px;
+}
+
+.content-section .content-info p{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+/* .service{
+    margin-top: 65px;
+    height: 652px;
+} */
+.service-header{
+    padding-bottom: 0px;
+}
+.service .service-left h4{
+    font-size: 24px;
+}
+.service .service-left p{
+    font-size: 13px;
+}
+
+.service .service-left{
+    padding: 35px;
+}
+
+
+.testimonial{
+    background-image: url(../images/people-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.testimonial p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.testimonial .test{
+    /* width: 500px; */
+    height: 230px;
+    background-color: #040707;
+    padding: 35px;
+    border-radius: 30px;
+}
+
+.testimonial .test .test-content{
+    margin-top: 25px;
+}
+
+.testimonial .test .test-content img{
+    position: absolute;
+}
+.testimonial .test .test-content > div{
+    margin-left: 100px;
+}
+
+.call{
+    background-color:#ffc61a ;
+    padding: 50px;
+}
+
+.call h2{
+    font-size: 25px;
+}
+
+.call h1{
+    font-size: 65px;
+}
+
+
+.footer{
+    background-color: #0d0900;
+    padding: 75px 0px;
+}
+
+.dash{
+    width: 100%;
+    height: 8px;
+    background-color: #ffc61a;
+}
+
+.social-icon ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.social-icon ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.social-icon ul li a{
+    display: block;
+    color: #ffc61a;
+    font-size: 30px;
+}
+
+.social-icon ul li:first-child{
+    padding-left: 0px;
+}
+
+.download ul{
+    list-style-type: none;
+}
+
+.download ul li span{
+    font-size: 30px;
+}
+
+.footer .download i{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+
+.footer .download i.fa-apple{
+    margin-left: 100px;
+}
+
+.footer-contact ul{
+    list-style-type: none;
+}
+
+.footer-contact li i{
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer-contact li p{
+    position: relative;
+    margin-left: 50px;
+}
+
+.footer-end{
+    background-color: #000;
+    padding: 20px 0px;
+}
+
+.footer-end p{
+    font-size: 14px;
+}

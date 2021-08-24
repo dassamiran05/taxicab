@@ -1,0 +1,219 @@
+
+
+/* Header */
+
+@media(max-width:768px){
+    .mt-4 {
+        margin-top: 5.5rem!important;
+    }
+}
+
+@media (max-width: 556px){
+    .mt-4 {
+        margin-top: 1rem!important;
+    }
+
+}
+
+@media (max-width:480px){
+    header .header-info h3{
+        font-size: 30px;
+    }
+    
+    header .header-info h1{
+        font-weight: 900;
+        font-size: 44px;
+    }
+    
+    .header-info p{
+        letter-spacing: 5px;
+    }
+}
+
+@media (max-width:320px){
+
+    header .header-info h3{
+        font-size: 20px;
+    }
+    
+    header .header-info h1{
+        font-weight: 900;
+        font-size: 37px;
+    }
+    
+    .header-info p{
+        letter-spacing: 3px;
+    }
+}
+
+/* End of Header */
+
+/**CAB Section***/
+
+@media(max-width:992px){
+
+    .cab .cab-left h4{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .cab .cab-left h1{
+        font-size:38px;
+        font-weight: bold;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .cab .cab-left h4{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .cab .cab-left h1{
+        font-size:45px;
+        font-weight: bold;
+    }
+    .cab{
+        height: auto;
+    }
+    .cab-right{
+        margin: auto;
+        margin-top: 0rem !important;
+        width: 450px !important;
+    }
+}
+
+
+@media(max-width:556px){
+
+
+    .cab-left{
+        padding-top: 15px !important;
+    }
+    .cab .cab-left h4{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .cab .cab-left h1{
+        font-size:38px;
+        font-weight: bold;
+    }
+    .cab{
+        height: auto;
+    }
+    .cab-right{
+        margin: auto;
+        margin-top: 0rem !important;
+        width: 390px !important;
+    }
+}
+
+@media(max-width:320px){
+    
+
+    .cab-left{
+        margin-top: -1rem !important;
+        padding: 20px;
+    }
+    .cab .cab-left h4{
+        font-size: 25px;
+    }
+    .cab .cab-left h1{
+        font-size:35px;
+        font-weight: bold;
+    }
+
+    .cab .cab-left p{
+        font-size: 13px;
+    }
+    .cab{
+        text-align: center;
+    }
+    .cab-right{
+        margin: auto;
+        margin-top: -1.5rem !important;
+        width:280px !important;
+
+    }
+}
+
+
+/**End of CAB Section***/
+
+
+
+/** Tariffs Section ***/
+@media (max-width:768px){
+    .card{
+        margin-top: 90px;
+    }
+
+    .tariffs .first-row{
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:480px){
+    .card{
+        padding: 30px;
+    }
+
+    .tariffs .first-row{
+        margin-bottom: 0px;
+    }
+}
+
+/** End of Tariffs Section ***/
+
+
+
+/** Service Section ***/
+
+@media(max-width:768px){
+    .service .service-left{
+        padding: 0;
+    }
+
+    .service-right img{
+        display: none;
+    }
+
+    .cab .cab-left h1 {
+        font-size: 35px;
+    }
+
+    .cab .cab-left h4 {
+        font-size: 25px;
+    }
+
+    .cab-left p{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media(max-width:556px){
+    .col-md-6 img{
+        margin: 10px;
+    }
+
+    .left{
+        text-align: center;
+    }
+
+    .service-right{
+        text-align: center;
+    }
+
+    .call h1 {
+        font-size: 45px;
+    }
+
+    .call h2 {
+        font-size: 22px;
+    }
+    
+}
+
+/** End of Service Section ***/
